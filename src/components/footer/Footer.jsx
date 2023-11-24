@@ -37,6 +37,7 @@ function Footer() {
           alt="youtube"
         />
       </div>
+      {/* bye bye */}
     </div>
   );
 }
