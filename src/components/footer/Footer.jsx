@@ -5,7 +5,6 @@ import Image from "next/image";
 function Footer() {
   return (
     <div className={styles.container}>
-      {/* hello */}
       <span>@all rights reserved</span>
       <div className={styles.socialNetworks}>
         <Image
@@ -37,7 +36,6 @@ function Footer() {
           alt="youtube"
         />
       </div>
-      {/* bye bye */}
     </div>
   );
 }
