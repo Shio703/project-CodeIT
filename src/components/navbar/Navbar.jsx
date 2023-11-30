@@ -38,6 +38,7 @@ function Navbar() {
 
   return (
     <div className={styles.container}>
+      {/* testing commits */}
       <Link href="/" className={styles.logo}>
         Lamamia
       </Link>
