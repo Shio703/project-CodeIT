@@ -56,7 +56,7 @@ function About() {
             <br />
             <br />- Mobile Apps
           </p>
-          <Button title={"Contact"} url={"/contact"} />
+          <Button title={"Contact"} url={"/contact"}/>
         </div>
       </section>
     </main>
