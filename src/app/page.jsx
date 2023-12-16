@@ -14,7 +14,7 @@ export default function Home() {
           Turning your Idea into Reality. We bring together the teams from the
           global tech industry.
         </p>
-        <Button title={"See Our Works"} url={"/portfolio"} />
+        <Button title={"See Our Works"} url={"/portfolio"}/>
       </div>
       <div className={styles.item}>
         <Image src={Hero} alt="hero" className={styles.img} />
