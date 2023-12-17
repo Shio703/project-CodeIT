@@ -5,16 +5,16 @@ import Link from "next/link";
 function Portfolio() {
   return (
     <div className={styles.container}>
-      <h1 className={styles.sectTitle}>Choose a gallery</h1>
+      <h1 className={styles.secTitle}>Choose a Gallery</h1>
       <div className={styles.items}>
-        <Link href={"/portfolio/illustrations"} className={styles.item}>
+        <Link className={styles.item} href={"/portfolio/illustrations"}>
           <span className={styles.title}>Illustrations</span>
         </Link>
-        <Link href={"/portfolio/websites"} className={styles.item}>
+        <Link className={styles.item} href={"/portfolio/websites"}>
           <span className={styles.title}>Websites</span>
         </Link>
-        <Link href={"/portfolio/application"} className={styles.item}>
-          <span className={styles.title}>Application</span>
+        <Link className={styles.item} href={"/portfolio/applications"}>
+          <span className={styles.title}>Applications</span>
         </Link>
       </div>
     </div>
