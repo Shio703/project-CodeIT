@@ -1,8 +1,11 @@
+import Button from '@/components/button/Button'
 import React from 'react'
 
 function Dashboard() {
   return (
-    <div>this is Dashboard</div>
+    <div>
+      <Button url={"/dashboard/crud"} title={"CRUD"}/>
+    </div>
   )
 }
 
